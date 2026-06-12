@@ -4,7 +4,11 @@
 
 ## Описание задачи
 
-Проект решает задачу автоматического выявления аварийно-опасных участков дорог Тюменской области.
+Проект решает задачу автоматического выявления аварийно-опасных участков дорог Тюменской области и оценки эффективности дорожно-транспортных мероприятий на основе исторических данных о ДТП.
+
+**Проблема:** существующие подходы основаны на ручном анализе статистики без применения методов ML и пространственного анализа.
+
+**Решение:** ML-пайплайн на основе 29 000+ ДТП (01.2015–01.2026) с геопривязкой к дорожной сети OpenStreetMap.
 
 ## Цели
 
@@ -14,22 +18,20 @@
 
 ## Структура проекта
 
-```
-Tyumen_road_safety
- ├── 📂 data
- ├── 📂 notebooks
- │   ├── 01_eda.ipynb
- │   ├── 02_osm_enrichment.ipynb
- │   ├── 03_feature_engineering.ipynb
- │   ├── 04_ml_models.ipynb
- │   ├── 05_ab_analysis.ipynb
- │   └── 06_dashboard.ipynb
- ├── 📂 src
- ├── 📂 outputs
- ├── .gitignore
- ├── requirements.txt
- └── README.md
-```
+\`\`\`
+├── data/
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_osm_enrichment.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_ml_models.ipynb
+│   ├── 05_ab_analysis.ipynb
+│   └── 06_dashboard.ipynb
+├── src/
+├── outputs/
+├── requirements.txt
+└── README.md
+\`\`\`
 
 ## Стек
 
@@ -56,7 +58,7 @@ Tyumen_road_safety
 - [ ] A/B-анализ
 - [ ] Дашборд
 
-## 👤 Автор
+## Автор
 
 - Студент: Даркшевич Николай Андреевич [@altsw25] (https://github.com/altsw25)
 - Руководитель: Паточенко Евгений Анатольевич [@evgpat](https://github.com/evgpat)
