@@ -23,8 +23,6 @@
 ```text
 Tyumen_road_safety/
 ├── data/
-│   ├── raw/
-│   └── processed/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_osm_enrichment.ipynb
@@ -33,14 +31,8 @@ Tyumen_road_safety/
 │   ├── 05_ab_analysis.ipynb
 │   └── 06_dashboard.ipynb
 ├── src/
-│   ├── data_processing.py
-│   ├── feature_engineering.py
-│   ├── modeling.py
-│   └── visualization.py
 ├── outputs/
-│   ├── figures/
-│   ├── models/
-│   └── reports/
+├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
