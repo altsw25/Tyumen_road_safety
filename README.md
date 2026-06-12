@@ -18,8 +18,13 @@
 
 ## Структура проекта
 
-\`\`\`
+## Структура проекта
+
+```text
+Tyumen_road_safety/
 ├── data/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_osm_enrichment.ipynb
@@ -28,10 +33,17 @@
 │   ├── 05_ab_analysis.ipynb
 │   └── 06_dashboard.ipynb
 ├── src/
+│   ├── data_processing.py
+│   ├── feature_engineering.py
+│   ├── modeling.py
+│   └── visualization.py
 ├── outputs/
+│   ├── figures/
+│   ├── models/
+│   └── reports/
 ├── requirements.txt
 └── README.md
-\`\`\`
+```
 
 ## Стек
 
