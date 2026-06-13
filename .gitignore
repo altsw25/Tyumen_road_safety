@@ -1,5 +1,4 @@
 # Данные
-data/
 *.geojson
 *.pbf
 *.csv
