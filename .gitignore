@@ -1,0 +1,18 @@
+# Данные
+data/
+*.geojson
+*.pbf
+*.csv
+
+# Модели
+outputs/*.pkl
+outputs/*.cbm
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Среда
+.env
+venv/
